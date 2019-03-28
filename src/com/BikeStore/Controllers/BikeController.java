@@ -20,5 +20,4 @@ public class BikeController extends BikeRepository {
         System.out.println("BikeId = " + bike.getBikeId() + " BikeBrand = " + bike.getBikeBrand() + " BikeType = " + bike.getBikeType() + " NumberOfGears = " + bike.getNumberOfGears() + " DateLastTask = " + bike.getDateLastTask() + " RimSize = " + bike.getRimSize());
     }
 
-
 }
