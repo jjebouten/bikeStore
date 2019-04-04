@@ -7,7 +7,7 @@ public class Database {
     protected static Connection ConnectDB() {
         try {
 
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/java_bikestore", "root", "xxx");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_bikestore?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "beech");
                     // JOptionPane.showMessageDialog(null, "Connected to db");
             return conn;
 
