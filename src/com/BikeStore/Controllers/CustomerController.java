@@ -17,7 +17,12 @@ public class CustomerController {
     }
 
     private void printCustomer(Customer customer) {
-        System.out.println("CustomerId = " + customer.getCustomerId() + "FirstName = " + customer.getFirstName() + "LastName = " + customer.getLastName() + "Email = " + customer.getEmail() );
+        System.out.println("CustomerId = " + customer.getCustomerId() +
+                "FirstName = " + customer.getFirstName() +
+                "LastName = " + customer.getLastName() +
+                "Address = " + customer.getAddress() +
+                "City = " + customer.getCity() +
+                "Email = " + customer.getEmail() );
     }
 
 }

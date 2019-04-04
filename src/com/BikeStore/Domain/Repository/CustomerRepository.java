@@ -26,7 +26,12 @@ public class CustomerRepository extends Database {
 
             // iterate through the java resultset
             while (result.next()) {
-                Customer customer = new Customer(result.getInt("CustomerId"), result.getString("FirstName"), result.getString("LastName"), result.getString("Email"));
+                Customer customer = new Customer(result.getInt("CustomerId"),
+                        result.getString("FirstName"),
+                        result.getString("LastName"),
+                        result.getString("Address"),
+                        result.getString("City"),
+                        result.getString("Email"));
                 CustomerList.add(customer);
             }
             st.close();
