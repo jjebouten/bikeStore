@@ -10,9 +10,9 @@ public class CustomerController {
     private CustomerRepository CustomerRepo = new CustomerRepository();
 
     public void printAllCustomers() {
-        ArrayList listWithBikes = CustomerRepo.getAllCustomers();
-        for (Object listWithBike : listWithBikes) {
-            printCustomer((Customer) listWithBike);
+        ArrayList listWithCustomers = CustomerRepo.getAllCustomers();
+        for (Object listWithCustomer : listWithCustomers) {
+            printCustomer((Customer) listWithCustomer);
         }
     }
 
@@ -22,7 +22,7 @@ public class CustomerController {
                 " LastName = " + customer.getLastName() +
                 " Address = " + customer.getAddress() +
                 " City = " + customer.getCity() +
-                " Email = " + customer.getEmail() );
+                " Email = " + customer.getEmail());
     }
 
 }

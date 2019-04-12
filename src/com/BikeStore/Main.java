@@ -1,19 +1,23 @@
 package com.BikeStore;
 
-import com.BikeStore.Controllers.BikeController;
-import com.BikeStore.Controllers.CustomerController;
+import com.BikeStore.Controllers.CityBikeController;
+import com.BikeStore.Controllers.ElectricBikeController;
+import com.BikeStore.Controllers.MountainBikeController;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        BikeController bikeController = new BikeController();
-        CustomerController customerController = new CustomerController();
+//        CustomerController customerController = new CustomerController();
+//        customerController.printAllCustomers();
 
-        bikeController.printAllBikes();
-        customerController.printAllCustomers();
+        CityBikeController cityBikeController = new CityBikeController();
+        ElectricBikeController electricBikeController = new ElectricBikeController();
+        MountainBikeController mountainBikeController = new MountainBikeController();
 
-
+        cityBikeController.printAllCityBikes();
+        electricBikeController.printAllElectricBikes();
+        mountainBikeController.printAllMountainBikes();
 
     }
 }

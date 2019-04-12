@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070a4f39-0ef7-4df7-ae6a-7cd5aa6f996c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/CityBikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/ElectricBikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/MountainBikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/CityBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/ElectricBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/MountainBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CityBikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/ElectricBikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/MountainBikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeStore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Domain/Modal/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Domain/Modal/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Controllers/BikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/BikeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/BikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/BikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,36 +31,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Customer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/CityBikeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/BikeController.java">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CityBikeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,84 +84,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/TaskController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CustomerRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Database.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/conf/ConnectionUrl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,10 +98,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/ElectricBikeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/MountainBikeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/ElectricBikeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="258" selection-start-line="27" selection-start-column="258" selection-end-line="27" selection-end-column="258" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/MountainBikeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1555071914104" expanded="true" signature="578:917" ph="..." />
               </folding>
             </state>
           </provider>
@@ -159,6 +177,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Bike</find>
+      <find>bike.</find>
+      <find>cityCity</find>
+      <find>\</find>
+      <find>Electic</find>
+      <find>bike</find>
+      <find>City</find>
+      <find>electric</find>
+      <find>Electric</find>
+      <find>city</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Electric</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -169,18 +204,33 @@
         <option value="$PROJECT_DIR$/Database.sql" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/ExampleMain.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/BikeRepository.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Controllers/BikeController.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/CityBike.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/MountainBike.java" />
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Database.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e117fbc8-14ec-415d-8832-b567a943c9ac/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/BikeRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/ElectricBike.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/MountainBike.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/CityBike.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CityBikeRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Controllers/BikeController.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/MountainBikeRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Controllers/ElectricBikeController.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Controllers/CityBikeController.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/ElectricBikeRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Controllers/MountainBikeController.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Database.java" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,38 +272,35 @@
             </path>
             <path>
               <item name="BikeStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BikeStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BikeStore" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BikeStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BikeStore" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554390552836" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555072003351" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.BikeStore.Controllers" />
+      <recent name="com.BikeStore.Domain.Repository" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,36 +390,40 @@
       <workItem from="1553615785709" duration="194000" />
       <workItem from="1553673414779" duration="635000" />
       <workItem from="1553794231096" duration="9312000" />
+      <workItem from="1555004193210" duration="8111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423000" />
+    <option name="totallyTimeSpent" value="21818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26286662" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2562258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Console" weight="0.20518358" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.043196544" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969563" weight="0.31965443" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4975097" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33045357" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" weight="0.17494601" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4975097" weight="0.32937366" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.4997233" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,7 +432,7 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32982844" />
       <window_info anchor="right" id="Codota" order="9" />
     </layout>
     <layout-to-restore>
@@ -416,29 +466,361 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CustomerRepository.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/BikeStore/Database.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">java</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">org</node>
+            <node x="" y="">images</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">com</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="253.0" y="244.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.BikeStore.Domain.Modal">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.BikeStore.Domain.Modal</OriginalElement>
+          <nodes>
+            <node x="" y="">com.BikeStore.Domain.Modal.Customer</node>
+            <node x="" y="">com.BikeStore.Domain.Modal.Bike</node>
+            <node x="" y="">com.BikeStore.Domain.Modal.MountainBike</node>
+            <node x="" y="">com.BikeStore.Domain.Modal.Task</node>
+            <node x="" y="">com.BikeStore.Domain.Modal.ElectricBike</node>
+            <node x="" y="">com.BikeStore.Domain.Modal.CityBike</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="132.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.BikeStore">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.BikeStore</OriginalElement>
+          <nodes>
+            <node x="265.0" y="334.0">com.BikeStore.Domain.Modal.Customer</node>
+            <node x="17.0" y="334.0">com.BikeStore.Domain.Modal.Bike</node>
+            <node x="635.0" y="783.0">com.BikeStore.Domain.Modal.MountainBike</node>
+            <node x="325.0" y="659.0">com.BikeStore.Domain.Modal.Task</node>
+            <node x="0.0" y="883.0">com.BikeStore.Domain.Modal.ElectricBike</node>
+            <node x="234.5" y="105.0">com.BikeStore.Domain.Repository.CustomerRepository</node>
+            <node x="0.0" y="210.0">com.BikeStore.Controllers.CityBikeController</node>
+            <node x="0.0" y="659.0">com.BikeStore.Controllers.CustomerController</node>
+            <node x="17.5" y="105.0">com.BikeStore.Domain.Repository.CityBikeRepository</node>
+            <node x="0.0" y="783.0">com.BikeStore.Main</node>
+            <node x="462.5" y="117.0">com.BikeStore.Domain.Repository.BikeRepository</node>
+            <node x="441.0" y="783.0">com.BikeStore.Controllers.TaskController</node>
+            <node x="219.0" y="0.0">com.BikeStore.Database</node>
+            <node x="0.0" y="559.0">com.BikeStore.Domain.Modal.CityBike</node>
+            <node x="243.0" y="783.0">com.BikeStore.Domain.Repository.TaskRepository</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.BikeStore.Controllers.CityBikeController" target="com.BikeStore.Domain.Repository.CityBikeRepository">
+              <point x="0.0" y="-39.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="com.BikeStore.Domain.Modal.CityBike" target="com.BikeStore.Domain.Modal.Bike">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="87.5" />
+            </edge>
+            <edge source="com.BikeStore.Domain.Repository.CityBikeRepository" target="com.BikeStore.Database">
+              <point x="0.0" y="-27.5" />
+              <point x="116.0" y="80.0" />
+              <point x="258.8333333333333" y="80.0" />
+              <point x="-79.66666666666669" y="27.5" />
+            </edge>
+            <edge source="com.BikeStore.Domain.Repository.CustomerRepository" target="com.BikeStore.Database">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="com.BikeStore.Domain.Repository.BikeRepository" target="com.BikeStore.Database">
+              <point x="0.0" y="-15.5" />
+              <point x="538.5" y="80.0" />
+              <point x="418.1666666666667" y="80.0" />
+              <point x="79.66666666666669" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="40.0" y="220.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="810" selection-start-line="810" selection-end-line="810" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/conf/ConnectionUrlParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/conf/ConnectionUrl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/TaskRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e117fbc8-14ec-415d-8832-b567a943c9ac/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/BikeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/ElectricBike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/MountainBike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/BikeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/CityBike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CityBikeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1555071914104" expanded="true" signature="578:917" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/CityBikeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/ElectricBikeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/ElectricBikeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="258" selection-start-line="27" selection-start-column="258" selection-end-line="27" selection-end-column="258" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/MountainBikeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/MountainBikeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -449,34 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
-          <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controllers/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

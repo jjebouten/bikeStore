@@ -8,7 +8,7 @@ public class Bike {
     private int numberOfGears;
     private int dateLastTask;
 
-    public Bike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, int dateLastTask) {
+    Bike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, int dateLastTask) {
         this.bikeId = bikeId;
         this.bikeBrand = bikeBrand;
         this.bikeType = bikeType;

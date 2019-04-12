@@ -1,14 +1,14 @@
 package com.BikeStore;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 public class Database {
 
-    protected static Connection ConnectDB() {
+    public static Connection ConnectDB() {
         try {
 
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_bikestore?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "beech");
-                    // JOptionPane.showMessageDialog(null, "Connected to db");
             return conn;
 
         } catch (Exception e) {
