@@ -22,6 +22,6 @@ public class ElectricBikeController extends ElectricBikeRepository {
     }
 
     private void getAdditionalElectricBikeInfo(ElectricBike electricBike) {
-        System.out.println("BikeBags = " + electricBike.getPower());
+        System.out.println("BikePower = " + electricBike.getPower());
     }
 }

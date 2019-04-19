@@ -22,7 +22,7 @@ public class MountainBikeController extends MountainBikeRepository {
     }
 
     private void getAdditionalMountainBikeInfo(MountainBike mountainBike) {
-        System.out.println("BikeBags = " + mountainBike.getSuspension());
+        System.out.println("BikeSuspension = " + mountainBike.getSuspension());
     }
 
 }

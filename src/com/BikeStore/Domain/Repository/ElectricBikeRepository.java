@@ -1,6 +1,5 @@
 package com.BikeStore.Domain.Repository;
 
-
 import com.BikeStore.Domain.Modal.ElectricBike;
 
 import java.sql.Connection;
@@ -12,7 +11,7 @@ public class ElectricBikeRepository extends Repository {
 
     public ArrayList getAllElectricBikes() {
 
-        String query = getAllByLeftJoin("Bike_Type_Electric", "Bikes", "BikeId");
+        String query = getAll("Bikes");
 
         Connection conn = ConnectDB();
         ArrayList<ElectricBike> queryResult = new ArrayList<>();
@@ -25,7 +24,13 @@ public class ElectricBikeRepository extends Repository {
 
             // iterate through the java resultset
             while (result.next()) {
-                ElectricBike electricBike = new ElectricBike(result.getInt("BikeId"), result.getString("BikeBrand"), result.getInt("BikeType"), result.getDouble("RimSize"), result.getInt("NumberOfGears"), result.getInt("DateLastTask"), result.getDouble("BikePower"));
+                ElectricBike electricBike = new ElectricBike(result.getInt("BikeId"),
+                        result.getString("BikeBrand"),
+                        result.getInt("BikeType"),
+                        result.getDouble("RimSize"),
+                        result.getInt("NumberOfGears"),
+                        result.getInt("DateLastTask"),
+                        result.getDouble("BikePower"));
                 queryResult.add(electricBike);
             }
             st.close();

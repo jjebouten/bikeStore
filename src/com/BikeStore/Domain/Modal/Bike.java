@@ -1,45 +1,18 @@
 package com.BikeStore.Domain.Modal;
 
-public class Bike {
-    private int bikeId;
-    private String bikeBrand;
-    private int bikeType;
-    private double rimSize;
-    private int numberOfGears;
-    private int dateLastTask;
+public interface Bike {
 
-    Bike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, int dateLastTask) {
-        this.bikeId = bikeId;
-        this.bikeBrand = bikeBrand;
-        this.bikeType = bikeType;
-        this.rimSize = rimSize;
-        this.numberOfGears = numberOfGears;
-        this.dateLastTask = dateLastTask;
-    }
+    int getBikeId();
 
-    public int getBikeId() {
-        return bikeId;
-    }
+    String getBikeBrand();
 
-    public String getBikeBrand() {
-        return bikeBrand;
-    }
+    int getBikeType();
 
-    public int getBikeType() {
-        return bikeType;
-    }
+    double getRimSize();
 
-    public double getRimSize() {
-        return rimSize;
-    }
+    int getNumberOfGears();
 
-    public int getNumberOfGears() {
-        return numberOfGears;
-    }
-
-    public int getDateLastTask() {
-        return dateLastTask;
-    }
+    int getDateLastTask();
 }
 
 

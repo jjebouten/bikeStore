@@ -1,6 +1,5 @@
 package com.BikeStore.Domain.Repository;
 
-import com.BikeStore.Database;
 import com.BikeStore.Domain.Modal.Customer;
 
 import java.sql.Connection;
@@ -8,16 +7,15 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class CustomerRepository extends Database {
+public class CustomerRepository extends Repository {
 
     public ArrayList getAllCustomers() {
 
+        String query = getAll("Customer");
+
         Connection conn = ConnectDB();
-        ArrayList<Customer> CustomerList = new ArrayList<>();
-
+        ArrayList<Customer> queryResult = new ArrayList<>();
         try {
-            String query = "SELECT * FROM Customers";
-
             // create the java statement
             Statement st = conn.createStatement();
 
@@ -32,14 +30,13 @@ public class CustomerRepository extends Database {
                         result.getString("Address"),
                         result.getString("City"),
                         result.getString("Email"));
-                CustomerList.add(customer);
+                queryResult.add(customer);
             }
             st.close();
         } catch (Exception e) {
             System.err.println("Got an exception!");
             System.err.println(e.getMessage());
         }
-        return CustomerList;
+        return queryResult;
     }
-
 }

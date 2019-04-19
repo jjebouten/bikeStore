@@ -1,6 +1,5 @@
 package com.BikeStore.Domain.Repository;
 
-
 import com.BikeStore.Domain.Modal.CityBike;
 
 import java.sql.Connection;
@@ -12,7 +11,7 @@ public class CityBikeRepository extends Repository {
 
     public ArrayList getAllCityBikes() {
 
-        String query = getAllByLeftJoin("Bike_Type_City", "Bikes", "BikeId");
+        String query = getAll("Bikes");
 
         Connection conn = ConnectDB();
         ArrayList<CityBike> queryResult = new ArrayList<>();
@@ -25,7 +24,13 @@ public class CityBikeRepository extends Repository {
 
             // iterate through the java resultset
             while (result.next()) {
-                CityBike cityBike = new CityBike(result.getInt("BikeId"), result.getString("BikeBrand"), result.getInt("BikeType"), result.getDouble("RimSize"), result.getInt("NumberOfGears"), result.getInt("DateLastTask"), result.getBoolean("BikeBag"));
+                CityBike cityBike = new CityBike(result.getInt("BikeId"),
+                        result.getString("BikeBrand"),
+                        result.getInt("BikeType"),
+                        result.getDouble("RimSize"),
+                        result.getInt("NumberOfGears"),
+                        result.getInt("DateLastTask"),
+                        result.getBoolean("BikeBag"));
                 queryResult.add(cityBike);
             }
             st.close();
