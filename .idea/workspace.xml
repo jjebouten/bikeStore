@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070a4f39-0ef7-4df7-ae6a-7cd5aa6f996c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/CreateProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/ElectricBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/resources/bikes.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/resources/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Domain/Modal/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Controllers/CityBikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/CityBikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Controllers/ElectricBikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/ElectricBikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Controllers/MountainBikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Controllers/MountainBikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/CityBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/CityBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Modal/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CityBikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CityBikeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/ElectricBikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/ElectricBikeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/MountainBikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/MountainBikeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Domain/Repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/bikeStore.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
+              <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -352,7 +322,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555676455992" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555676482332" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../InvMan" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -455,12 +425,12 @@
       <workItem from="1555344889489" duration="599000" />
       <workItem from="1555603645033" duration="142000" />
       <workItem from="1555603803559" duration="8091000" />
-      <workItem from="1555669670029" duration="6784000" />
+      <workItem from="1555669670029" duration="6810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41031000" />
+    <option name="totallyTimeSpent" value="41057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +446,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Persistence" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +456,7 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.043196544" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969563" visible="true" weight="0.33909288" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969563" weight="0.33909288" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4975097" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,7 +464,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" weight="0.43736503" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" visible="true" weight="0.43736503" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4975097" weight="0.32937366" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.4997233" weight="0.32937366" />
@@ -551,18 +521,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java</url>
-          <line>219</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -943,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
+          <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
         </state>
       </provider>
     </entry>

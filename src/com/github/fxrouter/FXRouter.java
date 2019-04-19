@@ -213,6 +213,7 @@ public final class FXRouter {
         // set FXRouter current route reference
         currentRoute = route;
 
+        pathRef = pathRef.replace(".","/");
         // create correct file path.  "/" doesn't affect any OS
         String scenePath = "/" + pathRef + "/" + route.scenePath;
 
