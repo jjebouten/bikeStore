@@ -1,4 +1,4 @@
-package com.BikeStore.Domain.Modal;
+package com.BikeStore.Domain.Interfaces;
 
 public interface Bike {
 

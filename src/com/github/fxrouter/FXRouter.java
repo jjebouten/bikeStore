@@ -33,7 +33,7 @@ import javafx.animation.FadeTransition;
  */
 public final class FXRouter {
     private static final String WINDOW_TITLE = "";
-    private static final Double WINDOW_WIDTH = 800.0;
+    private static final Double WINDOW_WIDTH = 640.0;
     private static final Double WINDOW_HEIGHT = 600.0;
     private static final Double FADE_ANIMATION_DURATION = 800.0;
 

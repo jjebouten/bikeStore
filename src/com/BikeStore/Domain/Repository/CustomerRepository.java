@@ -11,7 +11,7 @@ public class CustomerRepository extends Repository {
 
     public ArrayList getAllCustomers() {
 
-        String query = getAll("Customer");
+        String query = getAll("Customers");
 
         Connection conn = ConnectDB();
         ArrayList<Customer> queryResult = new ArrayList<>();

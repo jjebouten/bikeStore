@@ -1,5 +1,7 @@
 package com.BikeStore.Domain.Modal;
 
+import com.BikeStore.Domain.Interfaces.Bike;
+
 public class Task {
     private int taskId;
     private Customer customer;
