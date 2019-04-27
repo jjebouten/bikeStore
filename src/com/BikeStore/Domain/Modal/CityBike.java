@@ -1,9 +1,11 @@
 package com.BikeStore.Domain.Modal;
 
+import java.util.Date;
+
 public class CityBike extends BikeDefault {
     private boolean bikeBags;
 
-    public CityBike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, int dateLastTask, boolean bikeBags) {
+    public CityBike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, Date dateLastTask, boolean bikeBags) {
         super(bikeId, bikeBrand, bikeType, rimSize, numberOfGears, dateLastTask);
         this.bikeBags = bikeBags;
     }

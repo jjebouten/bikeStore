@@ -2,15 +2,17 @@ package com.BikeStore.Domain.Modal;
 
 import com.BikeStore.Domain.Interfaces.Bike;
 
+import java.util.Date;
+
 public class BikeDefault implements Bike {
     private int bikeId;
     private String bikeBrand;
     private int bikeType;
     private double rimSize;
     private int numberOfGears;
-    private int dateLastTask;
+    private Date dateLastTask;
 
-    public BikeDefault(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, int dateLastTask) {
+    public BikeDefault(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, Date dateLastTask) {
         this.bikeId = bikeId;
         this.bikeBrand = bikeBrand;
         this.bikeType = bikeType;
@@ -45,7 +47,7 @@ public class BikeDefault implements Bike {
     }
 
     @Override
-    public int getDateLastTask() {
+    public Date getDateLastTask() {
         return dateLastTask;
     }
 }

@@ -29,7 +29,7 @@ public class MountainBikeRepository extends Repository {
                         result.getInt("BikeType"),
                         result.getDouble("RimSize"),
                         result.getInt("NumberOfGears"),
-                        result.getInt("DateLastTask"),
+                        result.getDate("DateLastTask"),
                         result.getString("BikeSuspension"));
                 queryResult.add(mountainBike);
             }

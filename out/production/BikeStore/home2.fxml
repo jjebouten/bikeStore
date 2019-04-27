@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+       <VBox prefHeight="30.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+           <children>
+               <MenuBar>
+                   <menus>
+                       <Menu mnemonicParsing="false" text="Customers">
+                           <items>
+                               <MenuItem mnemonicParsing="false" onAction="#viewAllCustomers" text="All Customers" />
+                               <MenuItem mnemonicParsing="false" onAction="#viewNewCustomer" text="New Customer" />
+                           </items>
+                       </Menu>
+                       <Menu mnemonicParsing="false" text="Tasks">
+                           <items>
+                               <MenuItem mnemonicParsing="false" onAction="#viewAllTasks" text="All Tasks" />
+                               <MenuItem mnemonicParsing="false" onAction="#viewNewTask" text="New Task" />
+                           </items>
+                       </Menu>
+                       <Menu mnemonicParsing="false" text="Bikes">
+                           <items>
+                               <MenuItem mnemonicParsing="false" onAction="#viewAllBikes" text="All Bikes" />
+                               <MenuItem mnemonicParsing="false" onAction="#viewNewBike" text="New Bike" />
+                           </items>
+                       </Menu>
+                   </menus>
+               </MenuBar>
+               
+           </children>
+       </VBox>
+   </top>
+   <center>
+       <AnchorPane fx:id="content" maxHeight="-1.0" maxWidth="840.0" prefHeight="-1.0" VBox.vgrow="ALWAYS">
+           <children>
+               <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;"
+                      text="Welcome on the BikeStore Application" textAlignment="CENTER" textFill="#9f9f9f"
+                      wrapText="false">
+                   <font>
+                       <Font size="18.0"/>
+                   </font>
+               </Label>
+           </children>
+       </AnchorPane>
+   </center>
+</BorderPane>

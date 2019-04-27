@@ -1,5 +1,7 @@
 package com.BikeStore.Domain.Interfaces;
 
+import java.util.Date;
+
 public interface Bike {
 
     int getBikeId();
@@ -12,7 +14,7 @@ public interface Bike {
 
     int getNumberOfGears();
 
-    int getDateLastTask();
+    Date getDateLastTask();
 }
 
 

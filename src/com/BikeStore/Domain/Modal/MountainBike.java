@@ -1,10 +1,12 @@
 package com.BikeStore.Domain.Modal;
 
+import java.util.Date;
+
 public class MountainBike extends BikeDefault {
 
     private String suspension;
 
-    public MountainBike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, int dateLastTask, String suspension) {
+    public MountainBike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, Date dateLastTask, String suspension) {
         super(bikeId, bikeBrand, bikeType, rimSize, numberOfGears, dateLastTask);
         this.suspension = suspension;
     }

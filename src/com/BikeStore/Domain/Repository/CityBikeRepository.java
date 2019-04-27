@@ -29,7 +29,7 @@ public class CityBikeRepository extends Repository {
                         result.getInt("BikeType"),
                         result.getDouble("RimSize"),
                         result.getInt("NumberOfGears"),
-                        result.getInt("DateLastTask"),
+                        result.getDate("DateLastTask"),
                         result.getBoolean("BikeBag"));
                 queryResult.add(cityBike);
             }
