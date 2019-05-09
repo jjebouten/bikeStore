@@ -1,11 +1,13 @@
 package com.BikeStore.Data.Repository;
 
-import java.sql.ResultSet;
-
 public interface QueryBuilderInterface {
 
     String getAll(String table);
 
-    int getMax(String table, String field);
+    String getAllByFieldThroughInt(String table, String field, int IntegerValue);
 
+    String getAllByFieldThroughString(String table, String field, String StringValue);
+
+    int getMax(String table, String field);
 }
+
