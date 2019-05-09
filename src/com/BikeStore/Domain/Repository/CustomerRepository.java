@@ -9,9 +9,11 @@ import java.util.ArrayList;
 
 public class CustomerRepository extends Repository {
 
+    static String Table = "Customers";
+
     public ArrayList getAllCustomers() {
 
-        String query = getAll("Customers");
+        String query = getAll(Table);
 
         Connection conn = ConnectDB();
         ArrayList<Customer> queryResult = new ArrayList<>();
@@ -38,5 +40,13 @@ public class CustomerRepository extends Repository {
             System.err.println(e.getMessage());
         }
         return queryResult;
+    }
+
+    public void newCustomer(Customer customer) {
+//TODO
+    }
+
+    public int getMaxCustomerId() {
+        return getMax(Table, "customerId");
     }
 }
