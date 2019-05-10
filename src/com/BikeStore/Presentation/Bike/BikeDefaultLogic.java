@@ -1,10 +1,9 @@
-package com.BikeStore.Logic.View;
+package com.BikeStore.Presentation.View.Bike;
 
 
 import com.BikeStore.Data.Modal.BikeDefault;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.util.Date;

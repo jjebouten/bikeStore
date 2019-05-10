@@ -1,4 +1,4 @@
-package com.BikeStore.Logic.View;
+package com.BikeStore.Presentation.View.Bike;
 
 import com.BikeStore.Data.Modal.BikeDefault;
 import com.BikeStore.Data.Repository.Bike.ElectricBikeRepository;
