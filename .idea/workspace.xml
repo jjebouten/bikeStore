@@ -2,72 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070a4f39-0ef7-4df7-ae6a-7cd5aa6f996c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowCityBikeLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowElectricBikeLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowMountainBikeLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/AddEditGroupView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/AddEditGroupView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/AddEditOrderView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/AddEditOrderView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/AddEditProductView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/AddEditProductView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/DashBoardView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/DashBoardView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/GroupsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/GroupsView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/LoginView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/OrdersView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/OrdersView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/ProductsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/ProductsView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/resources/views/StockView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/resources/views/StockView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/AddEditGroupView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/AddEditGroupView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/AddEditOrderView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/AddEditOrderView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/AddEditProductView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/AddEditProductView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/DashBoardView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/DashBoardView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/GroupsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/GroupsView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/LoginView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/OrdersView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/OrdersView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/ProductsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/ProductsView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/classes/views/StockView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/classes/views/StockView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/allBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/allBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/allCityBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/allCityBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/allCustomers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/allCustomers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/allElectricBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/allElectricBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/allMountainBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/allMountainBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/allTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/allTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allCityBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allCityBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allCustomers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allCustomers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allElectricBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allElectricBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allMountainBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allMountainBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/allTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/newBike.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/newBike.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/newCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/newCustomer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/newTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/Views/newTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/bikeStore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/com/BikeStore/bikeStore.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/newBike.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/newBike.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/newCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/newCustomer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeStore/newTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeStore/newTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Data/Modal/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Data/Modal/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Data/Repository/Bike/BikeDefaultRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Data/Repository/Bike/BikeDefaultRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Presentation/ActionComponents/MenuLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Presentation/ActionComponents/MenuLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/BikeDefaultLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/BikeDefaultPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/CityBikeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/CityBikePresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/ElectricBikeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/ElectricBikePresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/MountainBikeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/MountainBikePresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/allBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allCityBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/allCityBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allCustomers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/allCustomers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allElectricBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/allElectricBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allMountainBikes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/allMountainBikes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/allTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/allBikes.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/newBike.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/newBike.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/newCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/newCustomer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BikeStore/Views/newTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BikeStore/Views/newTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/fxrouter/FXRouter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,8 +40,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/CityBikePresentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="75" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="75" />
+            <state relative-caret-position="43">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/NewBikePresentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/newBike.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Data/Modal/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/MountainBikePresentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,80 +111,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/MountainBikePresentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowElectricBikeLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowMountainBikeLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allCustomers.fxml">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/home.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="450">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allElectricBikes.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allBikes.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/ActionComponents/MenuLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,11 +133,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allCityBikes.fxml">
+        <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allMountainBikes.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="76" lean-forward="true" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -278,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/CityBikeLogic.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ElectricBikeLogic.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/MountainBikeLogic.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Logic/View/MenuLogic.java" />
@@ -329,6 +254,7 @@
         <option value="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/ElectricBikePresentation.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowMountainBikeLogic.java" />
         <option value="$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/MountainBikePresentation.java" />
+        <option value="$PROJECT_DIR$/src/com/BikeStore/Views/newBike.fxml" />
       </list>
     </option>
   </component>
@@ -417,7 +343,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557486839107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557487433425" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -428,15 +354,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/BikeStore" />
+      <recent name="$PROJECT_DIR$/src/com" />
+      <recent name="$PROJECT_DIR$/src/com/BikeStore/resources" />
+      <recent name="$PROJECT_DIR$/src/com/resources" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/BikeStore/Views" />
-      <recent name="$PROJECT_DIR$/src/com/BikeStore/Resources" />
-      <recent name="$PROJECT_DIR$/src/resources/views" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/com/BikeStore/libs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.BikeStore.Logic.Bike" />
@@ -445,12 +371,12 @@
       <recent name="com.BikeStore.Logic.View" />
       <recent name="com.BikeStore.Data.Repository.Bike" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/BikeStore" />
-      <recent name="$PROJECT_DIR$/src/com" />
-      <recent name="$PROJECT_DIR$/src/com/BikeStore/resources" />
-      <recent name="$PROJECT_DIR$/src/com/resources" />
-      <recent name="$PROJECT_DIR$/src/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/BikeStore/Views" />
+      <recent name="$PROJECT_DIR$/src/com/BikeStore/Resources" />
+      <recent name="$PROJECT_DIR$/src/resources/views" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/com/BikeStore/libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -533,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81449000" />
+    <option name="totallyTimeSpent" value="81467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,7 +492,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" visible="true" weight="0.1911447" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" weight="0.1911447" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4975097" weight="0.32937366" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.4997233" weight="0.32937366" />
@@ -650,14 +576,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allTasks.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -668,10 +586,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -684,34 +599,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Data/Modal/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="105">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/home.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="450">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/allMountainBikes.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Data/Repository/Task/TaskRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -730,16 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/BikeDefaultPresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,13 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowBikeLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Logic/Bike/ShowBikeLogic.java" />
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Logic/Customer/ShowCustomerLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -999,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/CityBikePresentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="75" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="75" />
+        <state relative-caret-position="43">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1043,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/MountainBikePresentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1085,11 +978,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/ActionComponents/MenuLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Presentation/Bike/NewBikePresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BikeStore/Views/newBike.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
         </state>
       </provider>
     </entry>
