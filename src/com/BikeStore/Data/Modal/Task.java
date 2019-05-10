@@ -1,7 +1,5 @@
 package com.BikeStore.Data.Modal;
 
-import java.util.Date;
-
 public class Task {
     private int taskId;
     private Customer customer;

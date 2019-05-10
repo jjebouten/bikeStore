@@ -2,7 +2,7 @@ package com.BikeStore.Presentation.Bike;
 
 import com.BikeStore.Data.Modal.BikeDefault;
 import com.BikeStore.Data.Modal.MountainBike;
-import com.BikeStore.Data.Repository.Bike.MountainBikeRepository;
+import com.BikeStore.Logic.Bike.ShowMountainBikeLogic;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
@@ -10,12 +10,11 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
-public class MountainBikeLogic extends BikeDefaultLogic implements Initializable {
+public class MountainBikePresentation extends BikeDefaultPresentation implements Initializable {
 
-    private MountainBikeRepository mountainBikeRepo = new MountainBikeRepository();
+    private ShowMountainBikeLogic showMountainBikeLogic = new ShowMountainBikeLogic();
 
     @FXML
     private TableView<MountainBike> tableView;
@@ -27,11 +26,7 @@ public class MountainBikeLogic extends BikeDefaultLogic implements Initializable
 
         initializeBikeDefaultFields();
         suspension.setCellValueFactory(new PropertyValueFactory<>("suspension"));
-        tableView.getItems().setAll(parseMountainBikeList());
-    }
-
-    private List parseMountainBikeList() {
-        return mountainBikeRepo.getAllMountainBikes();
+        tableView.getItems().setAll(showMountainBikeLogic.parseMountainBikeList());
     }
 
 }

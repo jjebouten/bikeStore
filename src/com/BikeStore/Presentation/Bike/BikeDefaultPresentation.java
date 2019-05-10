@@ -8,7 +8,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.util.Date;
 
-class BikeDefaultLogic {
+class BikeDefaultPresentation {
 
     @FXML
     private TableColumn<BikeDefault, Integer> bikeId;

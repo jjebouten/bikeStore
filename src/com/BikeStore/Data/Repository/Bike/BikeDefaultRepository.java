@@ -1,12 +1,6 @@
 package com.BikeStore.Data.Repository.Bike;
 
-import com.BikeStore.Data.Modal.BikeDefault;
 import com.BikeStore.Data.Repository.QueryBuilder;
-
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.ArrayList;
 
 public class BikeDefaultRepository extends QueryBuilder {
 

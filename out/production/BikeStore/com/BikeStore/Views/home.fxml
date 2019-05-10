@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
-<BorderPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.172-ea"
             fx:controller="com.BikeStore.Presentation.ActionComponents.MenuLogic">
     <top>
         <VBox prefHeight="30.0" prefWidth="600.0" BorderPane.alignment="CENTER">
@@ -12,22 +12,24 @@
                     <menus>
                         <Menu mnemonicParsing="false" text="Customers">
                             <items>
-                                <MenuItem mnemonicParsing="false" onAction="#viewAllCustomers" text="All Customers" />
-                                <MenuItem mnemonicParsing="false" onAction="#viewNewCustomer" text="New Customer" />
+                                <MenuItem mnemonicParsing="false" onAction="#viewAllCustomers" text="All Customers"/>
+                                <MenuItem mnemonicParsing="false" onAction="#viewNewCustomer" text="New Customer"/>
                             </items>
                         </Menu>
                         <Menu mnemonicParsing="false" text="Tasks">
                             <items>
-                                <MenuItem mnemonicParsing="false" onAction="#viewAllTasks" text="All Tasks" />
-                                <MenuItem mnemonicParsing="false" onAction="#viewNewTask" text="New Task" />
+                                <MenuItem mnemonicParsing="false" onAction="#viewAllTasks" text="All Tasks"/>
+                                <MenuItem mnemonicParsing="false" onAction="#viewNewTask" text="New Task"/>
                             </items>
                         </Menu>
                         <Menu mnemonicParsing="false" text="Bikes">
                             <items>
-                                <MenuItem mnemonicParsing="false" onAction="#viewAllCityBikes" text="All City Bikes" />
-                                <MenuItem mnemonicParsing="false" onAction="#viewAllMountainBikes" text="All Mountain Bikes" />
-                                <MenuItem mnemonicParsing="false" onAction="#viewAllElectricBikes" text="All Electric Bikes" />
-                                <MenuItem mnemonicParsing="false" onAction="#viewNewBike" text="New Bike" />
+                                <MenuItem mnemonicParsing="false" onAction="#viewAllCityBikes" text="All City Bikes"/>
+                                <MenuItem mnemonicParsing="false" onAction="#viewAllMountainBikes"
+                                          text="All Mountain Bikes"/>
+                                <MenuItem mnemonicParsing="false" onAction="#viewAllElectricBikes"
+                                          text="All Electric Bikes"/>
+                                <MenuItem mnemonicParsing="false" onAction="#viewNewBike" text="New Bike"/>
                             </items>
                         </Menu>
                     </menus>

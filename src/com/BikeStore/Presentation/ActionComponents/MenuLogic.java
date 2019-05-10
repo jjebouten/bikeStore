@@ -9,7 +9,8 @@ import java.io.IOException;
 
 public class MenuLogic {
 
-    @FXML AnchorPane content;
+    @FXML
+    AnchorPane content;
 
     private void setNewContent(Pane newContent) {
         try {
