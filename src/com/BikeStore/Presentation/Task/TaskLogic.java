@@ -1,4 +1,4 @@
-package com.BikeStore.Logic.Task;
+package com.BikeStore.Presentation.Task;
 
 public class TaskLogic {
 }

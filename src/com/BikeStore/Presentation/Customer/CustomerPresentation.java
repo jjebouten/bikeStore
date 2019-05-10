@@ -1,7 +1,7 @@
-package com.BikeStore.Presentation.View.Customer;
+package com.BikeStore.Presentation.Customer;
 
 import com.BikeStore.Data.Modal.Customer;
-import com.BikeStore.Logic.ShowCustomerLogic;
+import com.BikeStore.Logic.Customer.ShowCustomerLogic;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
@@ -30,7 +30,7 @@ public class CustomerPresentation implements Initializable {
     @FXML
     private TableColumn<Customer, String> email;
 
-    public void initializeCustomerFields() {
+    private void initializeCustomerFields() {
         customerId.setCellValueFactory(new PropertyValueFactory<Customer, Integer>("customerId"));
         firstName.setCellValueFactory(new PropertyValueFactory<Customer, String>("firstName"));
         lastName.setCellValueFactory(new PropertyValueFactory<Customer, String>("lastName"));
@@ -41,6 +41,7 @@ public class CustomerPresentation implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        initializeCustomerFields();
         tableView.getItems().setAll(showCustomerLogic.parseCustomerList());
     }
 

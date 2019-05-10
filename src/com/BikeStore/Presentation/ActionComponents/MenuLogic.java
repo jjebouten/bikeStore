@@ -1,4 +1,4 @@
-package com.BikeStore.Presentation;
+package com.BikeStore.Presentation.ActionComponents;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

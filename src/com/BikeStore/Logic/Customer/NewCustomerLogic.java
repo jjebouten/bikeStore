@@ -1,4 +1,4 @@
-package com.BikeStore.Logic;
+package com.BikeStore.Logic.Customer;
 
 import com.BikeStore.Data.Modal.Customer;
 import com.BikeStore.Data.Repository.Customer.CustomerRepository;
@@ -13,7 +13,6 @@ public class NewCustomerLogic {
     }
 
     private int createNewCustomerId() {
-        Integer customerId = null;
-        return customerId = (CustomerRepo.getMaxCustomerId() + 1);
+        return CustomerRepo.getMaxCustomerId() + 1;
     }
 }
