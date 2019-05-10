@@ -9,6 +9,11 @@ import javafx.scene.control.TextField;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import static com.BikeStore.Presentation.ActionComponents.AlertLogic.alertError;
+import static com.BikeStore.Presentation.ActionComponents.AlertLogic.alertSucces;
+import static com.Validation.FieldValidator.isNullOrEmpty;
+import static com.Validation.FieldValidator.isValidEmailAddress;
+
 public class NewCustomerPresentation implements Initializable {
 
     private NewCustomerLogic newCustomerLogic = new NewCustomerLogic();
@@ -27,12 +32,41 @@ public class NewCustomerPresentation implements Initializable {
     //Method use the handle the different buttons' action.
     @FXML
     private void registerCustomer(ActionEvent event) {
-        newCustomerLogic.createNewCustomer(txtFirstname.getText(), txtLastname.getText(), txtAddress.getText(), txtCity.getText(), txtEmail.getText());
+
+        String firstName = txtFirstname.getText();
+        String lastName = txtLastname.getText();
+        String address = txtAddress.getText();
+        String city = txtCity.getText();
+        String email = txtEmail.getText();
+
+        if (validateFields(firstName, lastName, address, city, email)) {
+           newCustomerLogic.createNewCustomer(firstName, lastName, address, city, email);
+           alertSucces("Succes", "Customer succesfully created");
+           txtFirstname.setText("");
+           txtLastname.setText("");
+           txtAddress.setText("");
+           txtCity.setText("");
+           txtEmail.setText("");
+        }
+
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+    }
+
+    private boolean validateFields(String firstName, String lastName, String address, String city, String email) {
+        if (isNullOrEmpty(firstName, lastName, address, city)) {
+            alertError("Error 1557489176", "Invalid input all fields are required");
+            return false;
+        }
+
+        if (!isValidEmailAddress(email)) {
+            alertError("Error 1557489696", "Invalid email");
+            return false;
+        }
+        return true;
     }
 
 }
