@@ -4,6 +4,7 @@ import com.BikeStore.Data.Modal.Customer;
 import com.BikeStore.Data.Repository.QueryBuilder;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -44,6 +45,33 @@ public class CustomerRepository extends QueryBuilder {
     }
 
     public void newCustomer(Customer customer) {
+        try {
+            // create a mysql database connection
+            Connection conn = ConnectDB();
+            // create a sql date object so we can use it in our INSERT statement
+
+            // the mysql insert statement
+            String query = "INSERT INTO " + Table + " (CustomerId, FirstName, LastName, Address, City, Email)"
+                    + "VALUES (?, ?, ?, ?, ?,?)";
+
+            // create the mysql insert preparedstatement
+            assert conn != null;
+            PreparedStatement preparedStmt = conn.prepareStatement(query);
+            preparedStmt.setInt(1, customer.getCustomerId());
+            preparedStmt.setString(2, customer.getFirstName());
+            preparedStmt.setString(3, customer.getLastName());
+            preparedStmt.setString(4, customer.getAddress());
+            preparedStmt.setString(5, customer.getCity());
+            preparedStmt.setString(6, customer.getEmail());
+
+            // execute the preparedstatement
+            preparedStmt.execute();
+
+            conn.close();
+        } catch (Exception e) {
+            System.err.println("Got an exception!");
+            System.err.println(e.getMessage());
+        }
     }
 
     public int getMaxCustomerId() {

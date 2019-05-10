@@ -37,7 +37,6 @@ public class NewCustomerLogic implements Initializable {
         String city = txtCity.getText();
         String email = txtEmail.getText();
 
-
         customerId = (CustomerRepo.getMaxCustomerId() + 1);
         System.out.println(customerId);
 
