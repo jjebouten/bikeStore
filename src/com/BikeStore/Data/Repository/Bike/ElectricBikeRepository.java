@@ -8,11 +8,13 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class ElectricBikeQueryBuilder extends QueryBuilder {
+public class ElectricBikeRepository extends QueryBuilder {
+
+    static String fieldValue = "ElectricBike";
 
     public ArrayList getAllElectricBikes() {
 
-        String query = getAllByFieldThroughInt("Bikes", "BikeType", 2);
+        String query = getAllByFieldThroughString("Bikes", "BikeType", fieldValue);
 
         Connection conn = ConnectDB();
         ArrayList<ElectricBike> queryResult = new ArrayList<>();
@@ -27,7 +29,7 @@ public class ElectricBikeQueryBuilder extends QueryBuilder {
             while (result.next()) {
                 ElectricBike electricBike = new ElectricBike(result.getInt("BikeId"),
                         result.getString("BikeBrand"),
-                        result.getInt("BikeType"),
+                        result.getString("BikeType"),
                         result.getDouble("RimSize"),
                         result.getInt("NumberOfGears"),
                         result.getDate("DateLastTask"),

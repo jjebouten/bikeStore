@@ -16,7 +16,7 @@ public class QueryBuilder extends Database implements QueryBuilderInterface {
     }
 
     public String getAllByFieldThroughString(String table, String field, String StringValue) {
-        return "SELECT * FROM " + table + " WHERE " + field + "=" + StringValue;
+        return "SELECT * FROM " + table + " WHERE " + field + "='" + StringValue + "'";
     }
 
     public int getMax(String table, String field) {

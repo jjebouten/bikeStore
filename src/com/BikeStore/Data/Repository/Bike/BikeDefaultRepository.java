@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class BikeDefaultQueryBuilder extends QueryBuilder {
+public class BikeDefaultRepository extends QueryBuilder {
 
 //    public ArrayList getAllBikeDefaults() {
 //        String query = "SELECT * FROM BikeDefaults";

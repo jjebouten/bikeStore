@@ -2,7 +2,7 @@ package com.BikeStore.Logic.View;
 
 import com.BikeStore.Data.Modal.BikeDefault;
 import com.BikeStore.Data.Modal.MountainBike;
-import com.BikeStore.Data.Repository.Bike.MountainBikeQueryBuilder;
+import com.BikeStore.Data.Repository.Bike.MountainBikeRepository;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 public class MountainBikeLogic extends BikeDefaultLogic implements Initializable {
 
-    private MountainBikeQueryBuilder mountainBikeRepo = new MountainBikeQueryBuilder();
+    private MountainBikeRepository mountainBikeRepo = new MountainBikeRepository();
 
     @FXML
     private TableView<MountainBike> tableView;

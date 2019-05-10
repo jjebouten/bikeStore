@@ -3,14 +3,14 @@ package com.BikeStore.Data.Modal;
 import java.util.Date;
 
 public class CityBike extends BikeDefault {
-    private boolean bikeBags;
+    private String bikeBags;
 
-    public CityBike(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, Date dateLastTask, boolean bikeBags) {
+    public CityBike(int bikeId, String bikeBrand, String bikeType, double rimSize, int numberOfGears, Date dateLastTask, String bikeBags) {
         super(bikeId, bikeBrand, bikeType, rimSize, numberOfGears, dateLastTask);
         this.bikeBags = bikeBags;
     }
 
-    public boolean isBikeBags() {
+    public String getBikeBags() {
         return bikeBags;
     }
 }

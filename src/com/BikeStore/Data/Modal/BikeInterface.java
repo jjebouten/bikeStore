@@ -8,7 +8,7 @@ public interface BikeInterface {
 
     String getBikeBrand();
 
-    int getBikeType();
+    String getBikeType();
 
     double getRimSize();
 

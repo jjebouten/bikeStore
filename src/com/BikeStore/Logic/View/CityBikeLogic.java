@@ -2,7 +2,7 @@ package com.BikeStore.Logic.View;
 
 
 import com.BikeStore.Data.Modal.BikeDefault;
-import com.BikeStore.Data.Repository.Bike.CityBikeQueryBuilder;
+import com.BikeStore.Data.Repository.Bike.CityBikeRepository;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 public class CityBikeLogic extends BikeDefaultLogic implements Initializable {
 
-    private CityBikeQueryBuilder cityBikeRepo = new CityBikeQueryBuilder();
+    private CityBikeRepository cityBikeRepo = new CityBikeRepository();
 
     @FXML
     private TableView<BikeDefault> tableView;

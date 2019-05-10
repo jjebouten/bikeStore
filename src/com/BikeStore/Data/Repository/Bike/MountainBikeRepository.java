@@ -1,6 +1,6 @@
 package com.BikeStore.Data.Repository.Bike;
 
-import com.BikeStore.Data.Modal.CityBike;
+import com.BikeStore.Data.Modal.MountainBike;
 import com.BikeStore.Data.Repository.QueryBuilder;
 
 import java.sql.Connection;
@@ -8,31 +8,33 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class CityBikeQueryBuilder extends QueryBuilder {
+public class MountainBikeRepository extends QueryBuilder {
 
-    public ArrayList getAllCityBikes() {
+    static String fieldValue = "MountainBike";
 
-        String query = getAllByFieldThroughInt("Bikes", "BikeType", 1);
+    public ArrayList getAllMountainBikes() {
+
+        String query = getAllByFieldThroughString("Bikes", "BikeType", fieldValue);
 
         Connection conn = ConnectDB();
-        ArrayList<CityBike> queryResult = new ArrayList<>();
+        ArrayList<MountainBike> queryResult = new ArrayList<>();
         try {
             // create the java statement
             Statement st = conn.createStatement();
 
-            // execute the query, and get a java resultset
+            // execute the query,// and get a java resultset
             ResultSet result = st.executeQuery(query);
 
             // iterate through the java resultset
             while (result.next()) {
-                CityBike cityBike = new CityBike(result.getInt("BikeId"),
+                MountainBike mountainBike = new MountainBike(result.getInt("BikeId"),
                         result.getString("BikeBrand"),
-                        result.getInt("BikeType"),
+                        result.getString("BikeType"),
                         result.getDouble("RimSize"),
                         result.getInt("NumberOfGears"),
                         result.getDate("DateLastTask"),
-                        result.getBoolean("BikeBag"));
-                queryResult.add(cityBike);
+                        result.getString("BikeSuspension"));
+                queryResult.add(mountainBike);
             }
             st.close();
         } catch (Exception e) {
@@ -41,5 +43,4 @@ public class CityBikeQueryBuilder extends QueryBuilder {
         }
         return queryResult;
     }
-
 }

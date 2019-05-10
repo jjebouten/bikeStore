@@ -5,12 +5,12 @@ import java.util.Date;
 public abstract class BikeDefault implements BikeInterface {
     private int bikeId;
     private String bikeBrand;
-    private int bikeType;
+    private String bikeType;
     private double rimSize;
     private int numberOfGears;
     private Date dateLastTask;
 
-    public BikeDefault(int bikeId, String bikeBrand, int bikeType, double rimSize, int numberOfGears, Date dateLastTask) {
+    public BikeDefault(int bikeId, String bikeBrand, String bikeType, double rimSize, int numberOfGears, Date dateLastTask) {
         this.bikeId = bikeId;
         this.bikeBrand = bikeBrand;
         this.bikeType = bikeType;
@@ -30,7 +30,7 @@ public abstract class BikeDefault implements BikeInterface {
     }
 
     @Override
-    public int getBikeType() {
+    public String getBikeType() {
         return bikeType;
     }
 

@@ -1,7 +1,7 @@
 package com.BikeStore.Logic.View;
 
 import com.BikeStore.Data.Modal.BikeDefault;
-import com.BikeStore.Data.Repository.Bike.ElectricBikeQueryBuilder;
+import com.BikeStore.Data.Repository.Bike.ElectricBikeRepository;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
@@ -14,7 +14,7 @@ import java.util.ResourceBundle;
 
 public class ElectricBikeLogic extends BikeDefaultLogic implements Initializable {
 
-    private ElectricBikeQueryBuilder electricBikeRepo = new ElectricBikeQueryBuilder();
+    private ElectricBikeRepository electricBikeRepo = new ElectricBikeRepository();
 
     @FXML
     private TableView<BikeDefault> tableView;
