@@ -9,10 +9,10 @@ import javafx.scene.control.TextField;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import static com.FieldValidator.FieldValidator.isNullOrEmptyString;
+import static com.FieldValidator.FieldValidator.isValidEmailAddress;
 import static com.BikeStore.Presentation.ActionComponents.AlertLogic.alertError;
 import static com.BikeStore.Presentation.ActionComponents.AlertLogic.alertSucces;
-import static com.Validation.FieldValidator.isNullOrEmpty;
-import static com.Validation.FieldValidator.isValidEmailAddress;
 
 public class NewCustomerPresentation implements Initializable {
 
@@ -57,7 +57,7 @@ public class NewCustomerPresentation implements Initializable {
     }
 
     private boolean validateFields(String firstName, String lastName, String address, String city, String email) {
-        if (isNullOrEmpty(firstName, lastName, address, city)) {
+        if (isNullOrEmptyString(firstName, lastName, address, city)) {
             alertError("Error 1557489176", "Invalid input all fields are required");
             return false;
         }

@@ -1,4 +1,4 @@
-package com.Validation;
+package com.FieldValidator;
 
 public class FieldValidator {
 
@@ -9,11 +9,16 @@ public class FieldValidator {
         return m.matches();
     }
 
-    public static boolean isNullOrEmpty(String... strArr) {
+    public static boolean isNullOrEmptyString(String... strArr) {
         for (String st : strArr) {
-            if  (st==null || st.equals(""))
+            if (st == null || st.equals(""))
                 return true;
         }
         return false;
     }
+
+    public static boolean isPositiveInteger(int number) {
+        return number > 0;
+    }
+
 }
