@@ -9,9 +9,6 @@ import javafx.scene.control.TextField;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import static com.FieldValidator.FieldValidator.isNullOrEmptyString;
-import static com.FieldValidator.FieldValidator.isValidEmailAddress;
-import static com.BikeStore.Presentation.ActionComponents.AlertLogic.alertError;
 import static com.BikeStore.Presentation.ActionComponents.AlertLogic.alertSucces;
 
 public class NewCustomerPresentation implements Initializable {
@@ -39,8 +36,7 @@ public class NewCustomerPresentation implements Initializable {
         String city = txtCity.getText();
         String email = txtEmail.getText();
 
-        if (validateFields(firstName, lastName, address, city, email)) {
-           newCustomerLogic.createNewCustomer(firstName, lastName, address, city, email);
+        if (newCustomerLogic.createNewCustomer(firstName, lastName, address, city, email)){
            alertSucces("Succes", "Customer succesfully created");
            txtFirstname.setText("");
            txtLastname.setText("");
@@ -56,17 +52,5 @@ public class NewCustomerPresentation implements Initializable {
         // TODO
     }
 
-    private boolean validateFields(String firstName, String lastName, String address, String city, String email) {
-        if (isNullOrEmptyString(firstName, lastName, address, city)) {
-            alertError("Error 1557489176", "Invalid input all fields are required");
-            return false;
-        }
-
-        if (!isValidEmailAddress(email)) {
-            alertError("Error 1557489696", "Invalid email");
-            return false;
-        }
-        return true;
-    }
 
 }
